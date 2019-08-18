@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logointek"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".lihatnilai"
+            android:label="@string/title_activity_lihatnilai"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".buatnilai"
+            android:label="@string/title_activity_buatnilai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lihatmapel"
+            android:label="@string/title_activity_lihatmapel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".listmapel"
+            android:label="@string/title_activity_listmapel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lihatbiodataguru"
+            android:label="@string/title_activity_lihatbiodataguru"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".biodataguru"
+            android:label="@string/title_activity_biodataguru"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lihat_biodata"
+            android:label="@string/title_activity_lihat_biodata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".biodatasiswa"
+            android:label="@string/title_activity_biodatasiswa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profil"
+            android:label="@string/title_activity_profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".nilai"
+            android:label="@string/title_activity_nilai"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mapel"
+            android:label="@string/title_activity_mapel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".siswa"
+            android:label="@string/title_activity_siswa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".guru"
+            android:label="@string/title_activity_guru"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Home Screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
